@@ -40,7 +40,7 @@ export default function Layout() {
                         onClick={toggleMenu}
                         aria-label="Toggle navigation"
                     >
-                        {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+                        {isMenuOpen ? <X size={24} className="menu-icon" stroke="currentColor" /> : <Menu size={24} className="menu-icon" stroke="currentColor" />}
                     </button>
 
                     <ul className={`nav-menu ${isMenuOpen ? 'open' : ''}`} id="navMenu">

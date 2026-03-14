@@ -1636,3 +1636,10 @@ body.light-mode .practice-number {
     height: 1px;
   }
 }
+.menu-icon{
+  color: #e0e0e0;
+}
+
+.light-mode .menu-icon{
+  color: #000000;
+}
