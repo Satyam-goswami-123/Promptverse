@@ -46,9 +46,11 @@ export default function Layout() {
                     <ul className={`nav-menu ${isMenuOpen ? 'open' : ''}`} id="navMenu">
                         <li><NavLink to="/" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>Home</NavLink></li>
                         <li><NavLink to="/what-is-pe" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>What is PE?</NavLink></li>
-                        <li><NavLink to="/why-it-matters" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>Why It Matters</NavLink></li>
                         <li><NavLink to="/techniques" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>Techniques</NavLink></li>
                         <li><NavLink to="/examples" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>Examples</NavLink></li>
+                        <li><NavLink to="/templates" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>Templates</NavLink></li>
+                        <li><NavLink to="/ai-tools" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>AI Tools</NavLink></li>
+                        <li><NavLink to="/playground" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>Playground</NavLink></li>
                         <li><NavLink to="/best-practices" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>Best Practices</NavLink></li>
                     </ul>
                     <ThemeToggle />
@@ -75,12 +77,14 @@ export default function Layout() {
                             <div className="footer-col">
                                 <h4>Learn</h4>
                                 <NavLink to="/what-is-pe">What is PE?</NavLink>
-                                <NavLink to="/why-it-matters">Why It Matters</NavLink>
                                 <NavLink to="/techniques">Techniques</NavLink>
                             </div>
                             <div className="footer-col">
                                 <h4>Resources</h4>
                                 <NavLink to="/examples">Examples</NavLink>
+                                <NavLink to="/templates">Templates</NavLink>
+                                <NavLink to="/ai-tools">AI Tools</NavLink>
+                                <NavLink to="/playground">Playground</NavLink>
                                 <NavLink to="/best-practices">Best Practices</NavLink>
                             </div>
                         </div>
